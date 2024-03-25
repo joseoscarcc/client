@@ -18,7 +18,7 @@ const Cotizador = () => {
     console.log(uri)
     useEffect(() => {
         // Fetch marcas from the server
-        fetch(`${uri}/marcas`)
+        fetch(`${uri}api/marcas`)
             .then(response => response.json())
             .then(data => setMarcas(data.marca))
             .catch(error => console.error('Error fetching marcas:', error));
@@ -31,7 +31,7 @@ const Cotizador = () => {
         if (selectedMarca && year) {
             // Fetch descripcion_2 based on selected marca and year
             try {
-                const response = await fetch(`${uri}/model?marca=${selectedMarca}&year=${year}`);
+                const response = await fetch(`${uri}api/model?marca=${selectedMarca}&year=${year}`);
                 const data = await response.json();
                 setModelos(data.Modelos);
                 setModeloDisabled(false); // Enable Modelo select input
@@ -48,7 +48,7 @@ const Cotizador = () => {
         if (selectedYear && marca) {
             // Fetch descripcion_2 based on selected marca and year
             try {
-                const response = await fetch(`${uri}/model?marca=${marca}&year=${selectedYear}`);
+                const response = await fetch(`${uri}api/model?marca=${marca}&year=${selectedYear}`);
                 const data = await response.json();
                 console.log(data);
                 setModelos(data.Modelos);
@@ -64,7 +64,7 @@ const Cotizador = () => {
     
         const cotizacion = { nombre, correo, codigoPostal, tipoVehiculo, marca, year, modelo };
     
-        const response = await fetch(`${uri}/submit`, {
+        const response = await fetch(`${uri}api/submit`, {
             method: 'POST',
             body: JSON.stringify(cotizacion),
             headers: {
@@ -200,7 +200,7 @@ const Cotizador = () => {
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                             Cotizar
                         </button>
-                        <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+                        <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="/privacidad">
                             Política de privacidad
                         </a>
                     </div>

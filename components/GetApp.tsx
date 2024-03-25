@@ -16,6 +16,7 @@ const GetApp = () => {
               icon="/apple.svg"
               variant="btn_white"
               full
+              url="/cotizador"
             />
             <Button 
               type="button"
@@ -23,6 +24,7 @@ const GetApp = () => {
               icon="/android.svg"
               variant="btn_dark_green_outline"
               full
+              url="/productos"
             />
           </div>
         </div>
