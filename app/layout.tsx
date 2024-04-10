@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'JoeSeguros',
+  title: 'CotaParada',
   description: 'cotizador para seguros de autos, viaje, accidentes personales y carga',
 }
 

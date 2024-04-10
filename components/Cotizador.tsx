@@ -133,7 +133,7 @@ const Cotizador = () => {
     return (
         <section className='flexBetween max-container padding-container relative z-30 py-5'>
             <div className='w-60% bg-white p-8 rounded shadow-lg'>
-                <h2 className='text-center mb-4'>Cotizador Autos JOE Seguros</h2>
+                <h2 className='text-center mb-4'>Cotizador Autos Cota Parada</h2>
                 <form className="w-60%" onSubmit={handleSubmit}>
                 <input
                         className='mb-4 w-full px-3 py-2 border rounded'

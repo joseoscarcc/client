@@ -70,7 +70,7 @@ export const NAV_LINKS = [
     title: 'Contacto',
     links: [
       { label: 'Teléfono', value: '664 508 9876', url: 'tel:6645089876' }, // Add the URL for phone call
-      { label: 'Email', value: 'atencion@joeseguros.com', url: 'mailto:atencion@joeseguros.com' }, // Add the URL for email
+      { label: 'Email', value: 'atencion@cotaparada.com', url: 'mailto:atencion@cotaparada.com' }, // Add the URL for email
     ],
   };
   
@@ -86,10 +86,10 @@ export const NAV_LINKS = [
 
   export const POSTS = {
     id: 1,
-    title: '¿Qué productos encuentras en Joe Seguros?',
+    title: '¿Qué productos encuentras en Cota Parada?',
     subtitle: 'Conocemos los productos más sofisticados en la industria de los seguros',
     date: '16 Marzo 2024',
-    start: 'Joe Seguros, reconocido como el nuevo broker de seguros de México, ofrece una amplia gama de productos diseñados para proteger lo más valioso para nuestros clientes: su salud, su patrimonio y su tranquilidad financiera. Desde seguros de Gastos Médicos Mayores hasta coberturas especializadas para autos, hogares, empresas y más, en JOE Seguros nos comprometemos a brindar soluciones personalizadas y confiables que se adapten a las necesidades específicas de cada individuo y negocio.',
+    start: 'Cota Parada, reconocido como el nuevo broker de seguros de México, ofrece una amplia gama de productos diseñados para proteger lo más valioso para nuestros clientes: su salud, su patrimonio y su tranquilidad financiera. Desde seguros de Gastos Médicos Mayores hasta coberturas especializadas para autos, hogares, empresas y más, en Cota Parada nos comprometemos a brindar soluciones personalizadas y confiables que se adapten a las necesidades específicas de cada individuo y negocio.',
     image: [
       {src:"/productos.png",
       alt:"productos"}
@@ -148,7 +148,7 @@ export const NAV_LINKS = [
         text: 'Ofrecen garantías financieras ante terceros, asegurando el cumplimiento de obligaciones contractuales.',
       },
     ],
-    end: 'Estos son algunos de los productos que Joe Seguros ofrece para cubrir una amplia gama de necesidades tanto personales como empresariales.',
+    end: 'Estos son algunos de los productos que Cota Parada ofrece para cubrir una amplia gama de necesidades tanto personales como empresariales.',
     
   };
   export const BLOG = {
@@ -156,7 +156,7 @@ export const NAV_LINKS = [
     title: 'Proximámente nuestro blog',
     subtitle: 'El Blog de José Oscar Cota, para que conozcas mas a tu agente de seguros y la profesión de los seguros',
     date: '25 Marzo 2024',
-    start: 'Nos gusta escribir, es por eso que compartimos el blog de Joe Seguros para poder compartir un poco de nuestra profesión y el día a día.',
+    start: 'Nos gusta escribir, es por eso que compartimos el blog de Cota Parada para poder compartir un poco de nuestra profesión y el día a día.',
     image: [
       {src:"/proximamente.gif",
       alt:"proximamente"}
@@ -175,7 +175,7 @@ export const NAV_LINKS = [
     title: 'Política de Privacidad',
     subtitle: 'Conoce nuestra política de privacidad',
     date: '25 Marzo 2024',
-    start: 'Política de privacidad de José Oscar Ernesto Cota Carrasco Esta Política de privacidad describe cómo se recopila, utiliza y comparte su información personal cuando visita o hace una compra en www.joeseguros.com (denominado en lo sucesivo el “Sitio”).',
+    start: 'Política de privacidad de José Oscar Ernesto Cota Carrasco Esta Política de privacidad describe cómo se recopila, utiliza y comparte su información personal cuando visita o hace una compra en www.cotaparada.com (denominado en lo sucesivo el “Sitio”).',
     image: [
       {src:"/privacidad.png",
       alt:"privacidad"}
@@ -233,6 +233,6 @@ export const NAV_LINKS = [
     ],
     end:`
     CONTÁCTENOS
-    Para obtener más información sobre nuestras prácticas de privacidad, si tiene alguna pregunta o si desea presentar una queja, contáctenos pocorreo electrónico a atencion@joeseguros.com o por correo mediante el uso de la información que se proporciona a continuación:
+    Para obtener más información sobre nuestras prácticas de privacidad, si tiene alguna pregunta o si desea presentar una queja, contáctenos pocorreo electrónico a atencion@cotaparada.com o por correo mediante el uso de la información que se proporciona a continuación:
     1713 No Reelección Col Juarez, Navojoa, SON, 85870, México.`,
   };

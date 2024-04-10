@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">2023 JOE Seguros | Aviso de Privacidad | Terminos y condiciones de uso</p>
+        <p className="regular-14 w-full text-center text-gray-30">2023 Cota Parada | Aviso de Privacidad | Terminos y condiciones de uso</p>
       </div>
     </footer>
   );

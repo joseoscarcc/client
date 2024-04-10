@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Post {
   id: number;
@@ -42,9 +43,27 @@ const BlogPost: React.FC<Post> = ({ id, title, subtitle, date, start, image, bod
                 <div key={index}>
                   <p className='pt-5 text-justify'><strong>{subject.subtitle}</strong> {subject.text}</p>
                   <div className="pt-1 flex flex-wrap">
-                    {/* Add your links here */}
+                  <Link href='/' className="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                      YT Shorts
+                  </Link>
+                  <Link href='/' className="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                      TikTok
+                  </Link>
+                  <Link href='/' className="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                      Instagram
+                  </Link>
+                  <Link href='/' className="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                      Twitter
+                  </Link>
+                  <Link href='/' className="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                      Youtube
+                  </Link>
+                  <Link href='/' className="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                      Facebook
+                  </Link>
                   </div>
                 </div>
+
               ))
             )}
             <p className='py-6 text-justify'>{end}</p>
