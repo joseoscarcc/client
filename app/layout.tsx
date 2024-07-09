@@ -16,6 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head><meta name="facebook-domain-verification" content="mfx2s1e7h38py11e76zy4ycz80qvvm" /></head>
       <body>
         <Navbar />
         <main className="relative overflow-hidden">
